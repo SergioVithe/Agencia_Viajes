@@ -11,3 +11,15 @@ C:\Users\sergi\documents\visual studio 2012\Projects\Agencia\Agencia\bin\Debug\M
 C:\Users\sergi\documents\visual studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.frmLogin.resources
 C:\Users\sergi\documents\visual studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.frmEmpleados.resources
 C:\Users\sergi\documents\visual studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.frmPrincipal.resources
+C:\www\Agencia_Viajes\Agencia\bin\Debug\Agencia.exe.config
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.exe
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.pdb
+C:\www\Agencia_Viajes\Agencia\bin\Debug\Agencia.exe
+C:\www\Agencia_Viajes\Agencia\bin\Debug\Agencia.pdb
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.csprojResolveAssemblyReference.cache
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmConfiguracion.resources
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmEmpleados.resources
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmLogin.resources
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmPrincipal.resources
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.Properties.Resources.resources
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.csproj.GenerateResource.Cache
