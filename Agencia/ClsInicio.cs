@@ -9,10 +9,10 @@ namespace Agencia
 {
     class ClsInicio
     {
-        public string[] datosBaseDatos()
+        public string datosBaseDatos()
         {
             string sFileName = @"C:\Users\sergi\Desktop\sysinit.ini";
-            string[] cadenas = { };
+            string cadenas = "";
 
             if (File.Exists(sFileName))
             {
@@ -22,7 +22,7 @@ namespace Agencia
                 StreamReader sr = new StreamReader(fs);
                 string sContent = sr.ReadToEnd();
                 conexion.cadenadesencriptada = datos.Desencriptar(sContent);
-                cadenas = conexion.cadenadesencriptada.Split('=', ';');
+                cadenas = conexion.cadenadesencriptada;
                 fs.Close();
                 sr.Close();
             }

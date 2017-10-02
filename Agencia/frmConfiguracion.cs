@@ -85,13 +85,18 @@ namespace Agencia
         private void frmConfiguracion_Load(object sender, EventArgs e)
         {
             string sFileName = @"C:\Users\sergi\Desktop\sysinit.ini";
+
+            
             if (File.Exists(sFileName))
             {
+                string[] cadenas = { };
                 ClsInicio inicio = new ClsInicio();
-                txtServidor.Text = inicio.datosBaseDatos()[1];
-                txtBaseDatos.Text = inicio.datosBaseDatos()[3];
-                txtUsuario.Text = inicio.datosBaseDatos()[5];
-                txtPassword.Text = inicio.datosBaseDatos()[7];
+                cadenas = inicio.datosBaseDatos().Split('=',';');
+
+                txtServidor.Text = cadenas[1];
+                txtBaseDatos.Text = cadenas[3];
+                txtUsuario.Text = cadenas[5];
+                txtPassword.Text = cadenas[7];
             }
         }
     }

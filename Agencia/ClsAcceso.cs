@@ -17,34 +17,35 @@ namespace Agencia
 
         public string segurity()
         {
-
-            ClsInicio inicio = new ClsInicio();
-            ClsConexion conexion = new ClsConexion();
-            string cadena = "Server=" + inicio.datosBaseDatos()[1] + ";Database=" + inicio.datosBaseDatos()[3] + "; User Id=" + inicio.datosBaseDatos()[5] + ";Password=" + inicio.datosBaseDatos()[7];
             string output = "";
-            string query = "select tblUsuario.intIdNivel from tblUsuario where vchUsuario='" + usuario + "' and vchPassword='" + pass + "'";
-            try
-            {
-                conexion.cadenadesencriptada = cadena;
-                if (conexion.conexion())
-                {
+            string[] cadenas = { };
+            ClsInicio inicio = new ClsInicio();
+            cadenas = inicio.datosBaseDatos().Split('=', ';');
 
-                    MySqlCommand cmd = new MySqlCommand(query, conexion.conectar);
-                    cmd.ExecuteNonQuery();
+            MySqlConnection con = new MySqlConnection("Server=" + cadenas[1] + ";Database=" + cadenas[3] + "; User Id=" + cadenas[5] + ";Password=" + cadenas[7]);
+
+            using (con)
+            {
+                string query = "select tblUsuario.intIdNivel from tblUsuario where vchUsuario='" + usuario + "' and vchPassword='" + pass + "'";
+                con.Open();
+                MySqlCommand cmd = new MySqlCommand(query, con);
+                cmd.ExecuteNonQuery();
+                try
+                {
                     output = cmd.ExecuteScalar().ToString();
                 }
-            }
-            catch (Exception)
-            {
-                output = "";
+                catch (Exception)
+                {
 
+                    return output = "";
+                    
+                }
+                return output;
+                
             }
-
-            conexion.conectar.Close();
-            return output;
 
         }
-
-
     }
 }
+                
+

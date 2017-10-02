@@ -23,3 +23,6 @@ C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmLogin.resources
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmPrincipal.resources
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.Properties.Resources.resources
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.csproj.GenerateResource.Cache
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmSucursales.resources
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmEventos.resources
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmLugares.resources

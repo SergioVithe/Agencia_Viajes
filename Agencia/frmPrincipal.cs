@@ -27,5 +27,11 @@ namespace Agencia
             frmEmpleados empleados = new frmEmpleados();
             empleados.ShowDialog();
         }
+
+        private void sucursalesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSucursales sucursales = new frmSucursales();
+            sucursales.ShowDialog();
+        }
     }
 }
