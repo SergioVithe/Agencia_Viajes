@@ -66,7 +66,6 @@ namespace Agencia
         }
 
 
-
         public void creararchivo()
         {
             ClsDatos datos = new ClsDatos();
