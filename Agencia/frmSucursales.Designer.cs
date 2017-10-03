@@ -48,7 +48,6 @@
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnNuevo = new System.Windows.Forms.Button();
             this.btnBorrar = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.Sucursales.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtaSucursales)).BeginInit();
@@ -97,7 +96,7 @@
             // 
             // txtSucursal
             // 
-            this.txtSucursal.Location = new System.Drawing.Point(72, 72);
+            this.txtSucursal.Location = new System.Drawing.Point(72, 61);
             this.txtSucursal.Name = "txtSucursal";
             this.txtSucursal.Size = new System.Drawing.Size(138, 20);
             this.txtSucursal.TabIndex = 10;
@@ -132,7 +131,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 72);
+            this.label3.Location = new System.Drawing.Point(6, 61);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(51, 13);
             this.label3.TabIndex = 2;
@@ -178,7 +177,7 @@
             // 
             this.groupBox4.Controls.Add(this.label2);
             this.groupBox4.Controls.Add(this.txtBusqueda);
-            this.groupBox4.Location = new System.Drawing.Point(244, 12);
+            this.groupBox4.Location = new System.Drawing.Point(254, 25);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(395, 56);
             this.groupBox4.TabIndex = 1;
@@ -241,21 +240,11 @@
             this.btnBorrar.UseVisualStyleBackColor = true;
             this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(134, 43);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // frmSucursales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(805, 430);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.Sucursales);
@@ -299,6 +288,5 @@
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.Button btnBorrar;
-        private System.Windows.Forms.Button button1;
     }
 }

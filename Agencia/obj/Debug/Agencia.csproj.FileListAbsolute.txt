@@ -16,7 +16,6 @@ C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.exe
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.pdb
 C:\www\Agencia_Viajes\Agencia\bin\Debug\Agencia.exe
 C:\www\Agencia_Viajes\Agencia\bin\Debug\Agencia.pdb
-C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.csprojResolveAssemblyReference.cache
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmConfiguracion.resources
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmEmpleados.resources
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmLogin.resources
@@ -26,3 +25,6 @@ C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.csproj.GenerateResource.Cache
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmSucursales.resources
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmEventos.resources
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmLugares.resources
+C:\Users\sergi\Downloads\Compressed\Agencia_Viajes-f964e37c171b213cde7aeb6832b86e6e7cd4e891\Agencia\bin\Debug\Agencia.exe.config
+C:\Users\sergi\Downloads\Compressed\Agencia_Viajes-f964e37c171b213cde7aeb6832b86e6e7cd4e891\Agencia\obj\Debug\Agencia.exe
+C:\Users\sergi\Downloads\Compressed\Agencia_Viajes-f964e37c171b213cde7aeb6832b86e6e7cd4e891\Agencia\obj\Debug\Agencia.pdb

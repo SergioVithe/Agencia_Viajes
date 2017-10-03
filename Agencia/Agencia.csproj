@@ -50,9 +50,8 @@
     <Compile Include="ClsAcceso.cs" />
     <Compile Include="ClsConexion.cs" />
     <Compile Include="ClsDatos.cs" />
-    <Compile Include="ClsEmpleado.cs" />
+    <Compile Include="ClsCatalogos.cs" />
     <Compile Include="ClsInicio.cs" />
-    <Compile Include="Clsnuevo.cs" />
     <Compile Include="frmConfiguracion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +63,12 @@
     </Compile>
     <Compile Include="frmEmpleados.Designer.cs">
       <DependentUpon>frmEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEventos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEventos.Designer.cs">
+      <DependentUpon>frmEventos.cs</DependentUpon>
     </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
@@ -77,6 +82,18 @@
     <Compile Include="frmPrincipal.Designer.cs">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmSucursales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSucursales.Designer.cs">
+      <DependentUpon>frmSucursales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLugares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLugares.Designer.cs">
+      <DependentUpon>frmLugares.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmConfiguracion.resx">
@@ -85,11 +102,20 @@
     <EmbeddedResource Include="frmEmpleados.resx">
       <DependentUpon>frmEmpleados.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmEventos.resx">
+      <DependentUpon>frmEventos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmLugares.resx">
+      <DependentUpon>frmLugares.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPrincipal.resx">
       <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSucursales.resx">
+      <DependentUpon>frmSucursales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -113,7 +139,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

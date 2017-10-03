@@ -44,7 +44,6 @@
             this.txtApellidos = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.Empleados = new System.Windows.Forms.GroupBox();
-<<<<<<< HEAD
             this.dtaEmpleados = new System.Windows.Forms.DataGridView();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -53,23 +52,6 @@
             this.Empleados.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtaEmpleados)).BeginInit();
             this.groupBox3.SuspendLayout();
-=======
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.txtApellidos = new System.Windows.Forms.TextBox();
-            this.txtDireccion = new System.Windows.Forms.TextBox();
-            this.txtTelefono = new System.Windows.Forms.TextBox();
-            this.dtaEmpleados = new System.Windows.Forms.DataGridView();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.btnAgregar = new System.Windows.Forms.Button();
-            this.txtBorrar = new System.Windows.Forms.Button();
-            this.btnActualizar = new System.Windows.Forms.Button();
-            this.btnRecargar = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.lblIdentificador = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
-            this.Empleados.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtaEmpleados)).BeginInit();
->>>>>>> kj
             this.SuspendLayout();
             // 
             // label1
@@ -110,17 +92,9 @@
             // 
             // groupBox1
             // 
-<<<<<<< HEAD
             this.groupBox1.Controls.Add(this.btnNuevo);
             this.groupBox1.Controls.Add(this.lblIdentificador);
             this.groupBox1.Controls.Add(this.label5);
-=======
-            this.groupBox1.Controls.Add(this.lblIdentificador);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.btnActualizar);
-            this.groupBox1.Controls.Add(this.txtBorrar);
-            this.groupBox1.Controls.Add(this.btnAgregar);
->>>>>>> kj
             this.groupBox1.Controls.Add(this.txtTelefono);
             this.groupBox1.Controls.Add(this.txtDireccion);
             this.groupBox1.Controls.Add(this.txtApellidos);
@@ -138,7 +112,6 @@
             // 
             // btnNuevo
             // 
-<<<<<<< HEAD
             this.btnNuevo.Location = new System.Drawing.Point(132, 219);
             this.btnNuevo.Name = "btnNuevo";
             this.btnNuevo.Size = new System.Drawing.Size(109, 22);
@@ -199,30 +172,6 @@
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(172, 20);
             this.txtTelefono.TabIndex = 7;
-=======
-            this.Empleados.Controls.Add(this.btnRecargar);
-            this.Empleados.Controls.Add(this.dtaEmpleados);
-            this.Empleados.Location = new System.Drawing.Point(289, 73);
-            this.Empleados.Name = "Empleados";
-            this.Empleados.Size = new System.Drawing.Size(566, 328);
-            this.Empleados.TabIndex = 5;
-            this.Empleados.TabStop = false;
-            this.Empleados.Text = "Empleados";
-            // 
-            // txtNombre
-            // 
-            this.txtNombre.Location = new System.Drawing.Point(69, 56);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(172, 20);
-            this.txtNombre.TabIndex = 4;
-            // 
-            // txtApellidos
-            // 
-            this.txtApellidos.Location = new System.Drawing.Point(69, 93);
-            this.txtApellidos.Name = "txtApellidos";
-            this.txtApellidos.Size = new System.Drawing.Size(172, 20);
-            this.txtApellidos.TabIndex = 5;
->>>>>>> kj
             // 
             // txtDireccion
             // 
@@ -231,7 +180,6 @@
             this.txtDireccion.Size = new System.Drawing.Size(172, 20);
             this.txtDireccion.TabIndex = 6;
             // 
-<<<<<<< HEAD
             // txtApellidos
             // 
             this.txtApellidos.Location = new System.Drawing.Point(69, 93);
@@ -264,31 +212,12 @@
             this.dtaEmpleados.Size = new System.Drawing.Size(542, 272);
             this.dtaEmpleados.TabIndex = 8;
             this.dtaEmpleados.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtaEmpleados_CellClick);
-=======
-            // txtTelefono
-            // 
-            this.txtTelefono.Location = new System.Drawing.Point(69, 158);
-            this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(172, 20);
-            this.txtTelefono.TabIndex = 7;
-            // 
-            // dtaEmpleados
-            // 
-            this.dtaEmpleados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtaEmpleados.Location = new System.Drawing.Point(6, 39);
-            this.dtaEmpleados.Name = "dtaEmpleados";
-            this.dtaEmpleados.Size = new System.Drawing.Size(554, 272);
-            this.dtaEmpleados.TabIndex = 8;
->>>>>>> kj
             this.dtaEmpleados.SelectionChanged += new System.EventHandler(this.dtaEmpleados_SelectionChanged);
             // 
             // groupBox3
             // 
-<<<<<<< HEAD
             this.groupBox3.Controls.Add(this.label6);
             this.groupBox3.Controls.Add(this.txtBuscar);
-=======
->>>>>>> kj
             this.groupBox3.Location = new System.Drawing.Point(289, 21);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(375, 46);
@@ -296,7 +225,6 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Filtros";
             // 
-<<<<<<< HEAD
             // label6
             // 
             this.label6.AutoSize = true;
@@ -313,62 +241,6 @@
             this.txtBuscar.Size = new System.Drawing.Size(224, 20);
             this.txtBuscar.TabIndex = 14;
             this.txtBuscar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBuscar_KeyPress);
-=======
-            // btnAgregar
-            // 
-            this.btnAgregar.Location = new System.Drawing.Point(4, 223);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(75, 23);
-            this.btnAgregar.TabIndex = 8;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
-            // 
-            // txtBorrar
-            // 
-            this.txtBorrar.Location = new System.Drawing.Point(166, 223);
-            this.txtBorrar.Name = "txtBorrar";
-            this.txtBorrar.Size = new System.Drawing.Size(75, 23);
-            this.txtBorrar.TabIndex = 9;
-            this.txtBorrar.Text = "Borrar";
-            this.txtBorrar.UseVisualStyleBackColor = true;
-            this.txtBorrar.Click += new System.EventHandler(this.txtBorrar_Click);
-            // 
-            // btnActualizar
-            // 
-            this.btnActualizar.Location = new System.Drawing.Point(85, 223);
-            this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(75, 23);
-            this.btnActualizar.TabIndex = 10;
-            this.btnActualizar.Text = "Actualizar";
-            this.btnActualizar.UseVisualStyleBackColor = true;
-            // 
-            // btnRecargar
-            // 
-            this.btnRecargar.Location = new System.Drawing.Point(457, 10);
-            this.btnRecargar.Name = "btnRecargar";
-            this.btnRecargar.Size = new System.Drawing.Size(75, 23);
-            this.btnRecargar.TabIndex = 11;
-            this.btnRecargar.Text = "Actualizar";
-            this.btnRecargar.UseVisualStyleBackColor = true;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(11, 29);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(68, 13);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "Identificador:";
-            // 
-            // lblIdentificador
-            // 
-            this.lblIdentificador.AutoSize = true;
-            this.lblIdentificador.Location = new System.Drawing.Point(92, 29);
-            this.lblIdentificador.Name = "lblIdentificador";
-            this.lblIdentificador.Size = new System.Drawing.Size(0, 13);
-            this.lblIdentificador.TabIndex = 12;
->>>>>>> kj
             // 
             // frmEmpleados
             // 
@@ -385,19 +257,13 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Empleados";
             this.Load += new System.EventHandler(this.frmEmpleados_Load);
-<<<<<<< HEAD
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.frmEmpleados_KeyPress);
-=======
->>>>>>> kj
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.Empleados.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtaEmpleados)).EndInit();
-<<<<<<< HEAD
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-=======
->>>>>>> kj
             this.ResumeLayout(false);
 
         }
@@ -410,30 +276,19 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnActualizar;
-<<<<<<< HEAD
         private System.Windows.Forms.Button btnBorrar;
-=======
-        private System.Windows.Forms.Button txtBorrar;
->>>>>>> kj
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.TextBox txtTelefono;
         private System.Windows.Forms.TextBox txtDireccion;
         private System.Windows.Forms.TextBox txtApellidos;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.GroupBox Empleados;
-<<<<<<< HEAD
-=======
-        private System.Windows.Forms.Button btnRecargar;
->>>>>>> kj
         private System.Windows.Forms.DataGridView dtaEmpleados;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label lblIdentificador;
         private System.Windows.Forms.Label label5;
-<<<<<<< HEAD
         private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtBuscar;
-=======
->>>>>>> kj
     }
 }
