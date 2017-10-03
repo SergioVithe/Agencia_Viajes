@@ -17,19 +17,10 @@ namespace Agencia
             InitializeComponent();
         }
 
-        ClsCatalogos empleado = new ClsCatalogos();
+        ClsEmpleado empleado = new ClsEmpleado();
         public void tablaReload()
         {
             dtaEmpleados.DataSource = empleado.consultasDataGridView("select * from tblEmpleados");
-        }
-
-        public void datosLimpios()
-        {
-            txtNombre.Text = "";
-            txtTelefono.Text = "";
-            txtDireccion.Text = "";
-            txtApellidos.Text = "";
-            lblIdentificador.Text = "0";
         }
         private void frmEmpleados_Load(object sender, EventArgs e)
         {
@@ -40,9 +31,18 @@ namespace Agencia
         private void btnAgregar_Click(object sender, EventArgs e)
         {
            empleado.ProcedimientosBasicos("INSERT INTO tblempleados(vchNombre,vchApellido,vchDireccion,vchTelefono) VALUES('"+txtNombre.Text+"','"+txtApellidos.Text+"','"+txtDireccion.Text+"','"+txtTelefono.Text+"');");
-           datosLimpios();
            tablaReload();
-            
+        }
+
+        private void txtBorrar_Click(object sender, EventArgs e)
+        {
+            empleado.ProcedimientosBasicos("delete from tblempleados where intIdEmpleado='"+lblIdentificador.Text+"'");
+            tablaReload();
+        }
+
+        private void dtaEmpleados_SelectionChanged(object sender, EventArgs e)
+        {
+            lblIdentificador.Text = dtaEmpleados.Rows[0].Cells[0].Value.ToString();// dtaEmpleados.Rows[0].Cells[1].Value.ToString();
         }
 
         private void txtBorrar_Click(object sender, EventArgs e)
