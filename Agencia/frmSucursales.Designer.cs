@@ -29,30 +29,29 @@
         private void InitializeComponent()
         {
             this.Sucursales = new System.Windows.Forms.GroupBox();
-            this.txtTelefono = new System.Windows.Forms.TextBox();
-            this.txtDirección = new System.Windows.Forms.TextBox();
-            this.txtEncargado = new System.Windows.Forms.TextBox();
-            this.txtSucursal = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.lblIdentificador = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.dtaSucursales = new System.Windows.Forms.DataGridView();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtBusqueda = new System.Windows.Forms.TextBox();
+            this.dtaSucursales = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblIdentificador = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnNuevo = new System.Windows.Forms.Button();
             this.btnBorrar = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtSucursal = new System.Windows.Forms.TextBox();
+            this.txtEncargado = new System.Windows.Forms.TextBox();
+            this.txtDirección = new System.Windows.Forms.TextBox();
+            this.txtTelefono = new System.Windows.Forms.TextBox();
+            this.txtBusqueda = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.Sucursales.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtaSucursales)).BeginInit();
             this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtaSucursales)).BeginInit();
             this.SuspendLayout();
             // 
             // Sucursales
@@ -74,87 +73,6 @@
             this.Sucursales.TabStop = false;
             this.Sucursales.Text = "Sucursales";
             // 
-            // txtTelefono
-            // 
-            this.txtTelefono.Location = new System.Drawing.Point(72, 171);
-            this.txtTelefono.Name = "txtTelefono";
-            this.txtTelefono.Size = new System.Drawing.Size(138, 20);
-            this.txtTelefono.TabIndex = 13;
-            // 
-            // txtDirección
-            // 
-            this.txtDirección.Location = new System.Drawing.Point(72, 141);
-            this.txtDirección.Name = "txtDirección";
-            this.txtDirección.Size = new System.Drawing.Size(138, 20);
-            this.txtDirección.TabIndex = 12;
-            // 
-            // txtEncargado
-            // 
-            this.txtEncargado.Location = new System.Drawing.Point(72, 106);
-            this.txtEncargado.Name = "txtEncargado";
-            this.txtEncargado.Size = new System.Drawing.Size(138, 20);
-            this.txtEncargado.TabIndex = 11;
-            // 
-            // txtSucursal
-            // 
-            this.txtSucursal.Location = new System.Drawing.Point(72, 72);
-            this.txtSucursal.Name = "txtSucursal";
-            this.txtSucursal.Size = new System.Drawing.Size(138, 20);
-            this.txtSucursal.TabIndex = 10;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(6, 171);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(52, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Telefono:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(6, 141);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Dirección:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 106);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(62, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Encargado:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 72);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(51, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Sucursal:";
-            // 
-            // lblIdentificador
-            // 
-            this.lblIdentificador.AutoSize = true;
-            this.lblIdentificador.Location = new System.Drawing.Point(61, 28);
-            this.lblIdentificador.Name = "lblIdentificador";
-            this.lblIdentificador.Size = new System.Drawing.Size(0, 13);
-            this.lblIdentificador.TabIndex = 1;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 28);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Identificador:";
-            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.dtaSucursales);
@@ -164,15 +82,6 @@
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Sucursales Existentes";
-            // 
-            // dtaSucursales
-            // 
-            this.dtaSucursales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtaSucursales.Location = new System.Drawing.Point(9, 19);
-            this.dtaSucursales.Name = "dtaSucursales";
-            this.dtaSucursales.Size = new System.Drawing.Size(514, 250);
-            this.dtaSucursales.TabIndex = 2;
-            this.dtaSucursales.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtaSucursales_CellClick);
             // 
             // groupBox4
             // 
@@ -185,22 +94,67 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Filtrar";
             // 
-            // label2
+            // dtaSucursales
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 26);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(105, 13);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "Buscar por Sucursal:";
+            this.dtaSucursales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtaSucursales.Location = new System.Drawing.Point(9, 19);
+            this.dtaSucursales.Name = "dtaSucursales";
+            this.dtaSucursales.Size = new System.Drawing.Size(514, 250);
+            this.dtaSucursales.TabIndex = 2;
+            this.dtaSucursales.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtaSucursales_CellClick);
             // 
-            // txtBusqueda
+            // label1
             // 
-            this.txtBusqueda.Location = new System.Drawing.Point(114, 23);
-            this.txtBusqueda.Name = "txtBusqueda";
-            this.txtBusqueda.Size = new System.Drawing.Size(217, 20);
-            this.txtBusqueda.TabIndex = 14;
-            this.txtBusqueda.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBusqueda_KeyPress);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 28);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(68, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Identificador:";
+            // 
+            // lblIdentificador
+            // 
+            this.lblIdentificador.AutoSize = true;
+            this.lblIdentificador.Location = new System.Drawing.Point(61, 28);
+            this.lblIdentificador.Name = "lblIdentificador";
+            this.lblIdentificador.Size = new System.Drawing.Size(0, 13);
+            this.lblIdentificador.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 72);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(51, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Sucursal:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 106);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(62, 13);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Encargado:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(6, 141);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(55, 13);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Dirección:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(6, 171);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(52, 13);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Telefono:";
             // 
             // btnGuardar
             // 
@@ -241,21 +195,56 @@
             this.btnBorrar.UseVisualStyleBackColor = true;
             this.btnBorrar.Click += new System.EventHandler(this.btnBorrar_Click);
             // 
-            // button1
+            // txtSucursal
             // 
-            this.button1.Location = new System.Drawing.Point(134, 43);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.txtSucursal.Location = new System.Drawing.Point(72, 72);
+            this.txtSucursal.Name = "txtSucursal";
+            this.txtSucursal.Size = new System.Drawing.Size(138, 20);
+            this.txtSucursal.TabIndex = 10;
+            // 
+            // txtEncargado
+            // 
+            this.txtEncargado.Location = new System.Drawing.Point(72, 106);
+            this.txtEncargado.Name = "txtEncargado";
+            this.txtEncargado.Size = new System.Drawing.Size(138, 20);
+            this.txtEncargado.TabIndex = 11;
+            // 
+            // txtDirección
+            // 
+            this.txtDirección.Location = new System.Drawing.Point(72, 141);
+            this.txtDirección.Name = "txtDirección";
+            this.txtDirección.Size = new System.Drawing.Size(138, 20);
+            this.txtDirección.TabIndex = 12;
+            // 
+            // txtTelefono
+            // 
+            this.txtTelefono.Location = new System.Drawing.Point(72, 171);
+            this.txtTelefono.Name = "txtTelefono";
+            this.txtTelefono.Size = new System.Drawing.Size(138, 20);
+            this.txtTelefono.TabIndex = 13;
+            // 
+            // txtBusqueda
+            // 
+            this.txtBusqueda.Location = new System.Drawing.Point(114, 23);
+            this.txtBusqueda.Name = "txtBusqueda";
+            this.txtBusqueda.Size = new System.Drawing.Size(217, 20);
+            this.txtBusqueda.TabIndex = 14;
+            this.txtBusqueda.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBusqueda_KeyPress);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 26);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(105, 13);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Buscar por Sucursal:";
             // 
             // frmSucursales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(805, 430);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.Sucursales);
@@ -270,9 +259,9 @@
             this.Sucursales.ResumeLayout(false);
             this.Sucursales.PerformLayout();
             this.groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dtaSucursales)).EndInit();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtaSucursales)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -299,6 +288,5 @@
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.Button btnBorrar;
-        private System.Windows.Forms.Button button1;
     }
 }
