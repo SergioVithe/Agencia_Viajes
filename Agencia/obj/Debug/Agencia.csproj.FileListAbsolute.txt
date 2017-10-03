@@ -16,7 +16,6 @@ C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.exe
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.pdb
 C:\www\Agencia_Viajes\Agencia\bin\Debug\Agencia.exe
 C:\www\Agencia_Viajes\Agencia\bin\Debug\Agencia.pdb
-C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.csprojResolveAssemblyReference.cache
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmConfiguracion.resources
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmEmpleados.resources
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmLogin.resources

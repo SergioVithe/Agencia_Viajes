@@ -177,7 +177,7 @@
             // 
             this.groupBox4.Controls.Add(this.label2);
             this.groupBox4.Controls.Add(this.txtBusqueda);
-            this.groupBox4.Location = new System.Drawing.Point(244, 12);
+            this.groupBox4.Location = new System.Drawing.Point(254, 25);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(395, 56);
             this.groupBox4.TabIndex = 1;
