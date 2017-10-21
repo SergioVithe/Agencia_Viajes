@@ -18,7 +18,6 @@ namespace Agencia
 
         }
 
-
         public string Desencriptar(string cadenadesencriptar)
         {
             string resultado = string.Empty;

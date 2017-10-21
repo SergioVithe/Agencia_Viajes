@@ -25,16 +25,16 @@ namespace Agencia
             lblIdentificador.Text = "0";
         }
 
-        ClsCatalogos catalogos = new ClsCatalogos();
+        ClsSucursales sucursal = new ClsSucursales();
         private void txtBusqueda_KeyPress(object sender, KeyPressEventArgs e)
         {
             dtaSucursales.DataSource = null;
-            dtaSucursales.DataSource = catalogos.consultasDataGridView("SELECT * FROM tblsucursales WHERE vchNombre LIKE '"+txtBusqueda.Text+"%'");
+            dtaSucursales.DataSource = sucursal.consultasDataGridView("SELECT * FROM tblsucursales WHERE vchNombre LIKE '"+txtBusqueda.Text+"%'");
         }
 
         public void databd()
         {
-            dtaSucursales.DataSource = catalogos.consultasDataGridView("SELECT * FROM tblsucursales");
+            dtaSucursales.DataSource = sucursal.consultasDataGridView("SELECT * FROM tblsucursales");
             cajaslimpias();
         }
 
@@ -47,20 +47,20 @@ namespace Agencia
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            catalogos.ProcedimientosBasicos("INSERT INTO tblsucursales(vchNombre,vchEncargado,vchDireccion,vchTelefono) VALUES('"+txtSucursal.Text+"','"+txtEncargado.Text+"','"+txtDirección.Text+"','"+txtTelefono.Text+"')");
+            sucursal.ProcedimientosBasicos("INSERT INTO tblsucursales(vchNombre,vchEncargado,vchDireccion,vchTelefono) VALUES('"+txtSucursal.Text+"','"+txtEncargado.Text+"','"+txtDirección.Text+"','"+txtTelefono.Text+"')");
             databd();
 
         }
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
-            catalogos.ProcedimientosBasicos("update tblsucursales set vchNombre='" + txtSucursal.Text + "',vchEncargado='" + txtEncargado.Text + "',vchDireccion='" + txtDirección.Text + "',vchTelefono='" + txtTelefono.Text + "' where intIdSucursal="+lblIdentificador.Text+"");
+            sucursal.ProcedimientosBasicos("update tblsucursales set vchNombre='" + txtSucursal.Text + "',vchEncargado='" + txtEncargado.Text + "',vchDireccion='" + txtDirección.Text + "',vchTelefono='" + txtTelefono.Text + "' where intIdSucursal="+lblIdentificador.Text+"");
             databd();
         }
 
         private void btnBorrar_Click(object sender, EventArgs e)
         {
-            catalogos.ProcedimientosBasicos("delete from tblsucursales where intIdSucursal='"+lblIdentificador.Text+"'");
+            sucursal.ProcedimientosBasicos("delete from tblsucursales where intIdSucursal='"+lblIdentificador.Text+"'");
             databd();
         }
 

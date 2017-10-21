@@ -24,7 +24,6 @@ namespace Agencia
             if (txtBaseDatos.Text == string.Empty)
             {
                 txtBaseDatos.Focus();
-
             }
             else
             {
@@ -44,9 +43,31 @@ namespace Agencia
             }
         }
 
+        private void frmConfiguracion_Load(object sender, EventArgs e)
+        {
+            string sFileName = @"C:\Users\Developer\Downloads\sysinit.ini";
+
+
+            if (File.Exists(sFileName))
+            {
+                string[] cadenas = { };
+                ClsInicio inicio = new ClsInicio();
+                cadenas = inicio.datosBaseDatos().Split('=', ';');
+
+                txtServidor.Text = cadenas[1];
+                txtBaseDatos.Text = cadenas[3];
+                txtUsuario.Text = cadenas[5];
+                txtPassword.Text = cadenas[7];
+
+                this.Hide();
+
+            }
+
+        }
+
         private void txtConectar_Click(object sender, EventArgs e)
         {
-            string sFileName = @"C:\Users\sergi\Desktop\sysinit.ini";
+            string sFileName = @"C:\Users\Developer\Downloads\sysinit.ini";
             ClsConexion conexion = new ClsConexion();
             conexion.bd = txtBaseDatos.Text;
             conexion.pass = txtPassword.Text;
@@ -68,35 +89,11 @@ namespace Agencia
                 frmLogin login = new frmLogin();
                 login.Show();
                 Hide();
-
-
             }
             else if (conexion.conexion() == false)
             {
                 lblEstado.ForeColor = System.Drawing.Color.DarkRed;
                 lblEstado.Text = "Conexión no establecida";
-            }
-
-
-
-             
-        }
-
-        private void frmConfiguracion_Load(object sender, EventArgs e)
-        {
-            string sFileName = @"C:\Users\sergi\Desktop\sysinit.ini";
-
-            
-            if (File.Exists(sFileName))
-            {
-                string[] cadenas = { };
-                ClsInicio inicio = new ClsInicio();
-                cadenas = inicio.datosBaseDatos().Split('=',';');
-
-                txtServidor.Text = cadenas[1];
-                txtBaseDatos.Text = cadenas[3];
-                txtUsuario.Text = cadenas[5];
-                txtPassword.Text = cadenas[7];
             }
         }
     }

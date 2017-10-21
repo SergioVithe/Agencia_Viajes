@@ -1,0 +1,2 @@
+que la ruta del archivo de texto, aun se tiene que modificar manualmente
+se tiene que cambiar en la clase ClsConexion en el metodo creararchivo() y en la clase ClsInicio en el metodo datosBaseDatos() y tambien en el formulario de frmconfiguracion ... aun se hará un modificación.. por que aun es estatico..

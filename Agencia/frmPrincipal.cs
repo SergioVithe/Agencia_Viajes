@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,28 +10,16 @@ using System.Windows.Forms;
 
 namespace Agencia
 {
-    public partial class frmPrincipal : Form
+    public partial class frmPrincipal : UserControl
     {
         public frmPrincipal()
         {
             InitializeComponent();
         }
 
-        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        private void frmPrincipal_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void empleadosToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmEmpleados empleados = new frmEmpleados();
-            empleados.ShowDialog();
-        }
-
-        private void sucursalesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmSucursales sucursales = new frmSucursales();
-            sucursales.ShowDialog();
         }
     }
 }

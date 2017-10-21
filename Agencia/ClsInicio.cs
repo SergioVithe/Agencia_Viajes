@@ -9,9 +9,10 @@ namespace Agencia
 {
     class ClsInicio
     {
+        string sFileName = @"C:\Users\Developer\Downloads\sysinit.ini";
         public string datosBaseDatos()
         {
-            string sFileName = @"C:\Users\sergi\Desktop\sysinit.ini";
+            
             string cadenas = "";
 
             if (File.Exists(sFileName))
@@ -27,6 +28,17 @@ namespace Agencia
                 sr.Close();
             }
             return cadenas;
+        }
+             
+        public void abrir()
+        {
+            if (File.Exists(sFileName))
+            { 
+
+
+                frmLogin nuevo = new frmLogin();
+                nuevo.Show();
+            }
         }
 
     }

@@ -1,30 +1,97 @@
-c:\users\sergi\documents\visual studio 2012\Projects\Agencia\Agencia\bin\Debug\Agencia.exe.config
-c:\users\sergi\documents\visual studio 2012\Projects\Agencia\Agencia\bin\Debug\Agencia.exe
-c:\users\sergi\documents\visual studio 2012\Projects\Agencia\Agencia\bin\Debug\Agencia.pdb
-c:\users\sergi\documents\visual studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.csprojResolveAssemblyReference.cache
-c:\users\sergi\documents\visual studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.frmConfiguracion.resources
-c:\users\sergi\documents\visual studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.Properties.Resources.resources
-c:\users\sergi\documents\visual studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.csproj.GenerateResource.Cache
-c:\users\sergi\documents\visual studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.exe
-c:\users\sergi\documents\visual studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.pdb
-C:\Users\sergi\documents\visual studio 2012\Projects\Agencia\Agencia\bin\Debug\MySql.Data.dll
-C:\Users\sergi\documents\visual studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.frmLogin.resources
-C:\Users\sergi\documents\visual studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.frmEmpleados.resources
-C:\Users\sergi\documents\visual studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.frmPrincipal.resources
+c:\users\developer\documents\visual studio 2012\Projects\Agencia\Agencia\bin\Debug\Agencia.exe.config
+c:\users\developer\documents\visual studio 2012\Projects\Agencia\Agencia\bin\Debug\Agencia.exe
+c:\users\developer\documents\visual studio 2012\Projects\Agencia\Agencia\bin\Debug\Agencia.pdb
+c:\users\developer\documents\visual studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.Form1.resources
+c:\users\developer\documents\visual studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.Properties.Resources.resources
+c:\users\developer\documents\visual studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.csproj.GenerateResource.Cache
+c:\users\developer\documents\visual studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.exe
+c:\users\developer\documents\visual studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.pdb
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.frmEmpleado.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.frmPrincipal.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.frmCatalogos.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.csprojResolveAssemblyReference.cache
 C:\www\Agencia_Viajes\Agencia\bin\Debug\Agencia.exe.config
-C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.exe
-C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.pdb
 C:\www\Agencia_Viajes\Agencia\bin\Debug\Agencia.exe
 C:\www\Agencia_Viajes\Agencia\bin\Debug\Agencia.pdb
+C:\www\Agencia_Viajes\Agencia\bin\Debug\MySql.Data.dll
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.Form1.resources
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmCatalogos.resources
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmConfiguracion.resources
-C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmEmpleados.resources
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmEmpleado.resources
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmLogin.resources
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmPrincipal.resources
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.Properties.Resources.resources
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.csproj.GenerateResource.Cache
-C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmSucursales.resources
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.exe
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.pdb
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.csprojResolveAssemblyReference.cache
+I:\FABIAN\Agencia_Viajes\Agencia\bin\Debug\Agencia.exe.config
+I:\FABIAN\Agencia_Viajes\Agencia\obj\Debug\Agencia.exe
+I:\FABIAN\Agencia_Viajes\Agencia\obj\Debug\Agencia.pdb
+I:\FABIAN\Agencia_Viajes\Agencia\obj\Debug\Agencia.csprojResolveAssemblyReference.cache
+I:\FABIAN\Agencia_Viajes\Agencia\obj\Debug\Agencia.Form1.resources
+I:\FABIAN\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmCatalogos.resources
+I:\FABIAN\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmConfiguracion.resources
+I:\FABIAN\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmEmpleado.resources
+I:\FABIAN\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmHoteles.resources
+I:\FABIAN\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmLogin.resources
+I:\FABIAN\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmPrincipal.resources
+I:\FABIAN\Agencia_Viajes\Agencia\obj\Debug\Agencia.Properties.Resources.resources
+I:\FABIAN\Agencia_Viajes\Agencia\obj\Debug\Agencia.csproj.GenerateResource.Cache
+I:\FABIAN\Agencia_Viajes\Agencia\bin\Debug\Agencia.exe
+I:\FABIAN\Agencia_Viajes\Agencia\bin\Debug\Agencia.pdb
+C:\Users\Developer\Desktop\Agencia_Viajes\Agencia\bin\Debug\Agencia.exe.config
+C:\Users\Developer\Desktop\Agencia_Viajes\Agencia\obj\Debug\Agencia.exe
+C:\Users\Developer\Desktop\Agencia_Viajes\Agencia\obj\Debug\Agencia.pdb
+F:\A INFORMACION IMPORTATNTE\AgenciaSergio\Agencia\bin\Debug\Agencia.exe.config
+F:\A INFORMACION IMPORTATNTE\AgenciaSergio\Agencia\bin\Debug\Agencia.exe
+F:\A INFORMACION IMPORTATNTE\AgenciaSergio\Agencia\bin\Debug\Agencia.pdb
+F:\A INFORMACION IMPORTATNTE\AgenciaSergio\Agencia\obj\Debug\Agencia.Form1.resources
+F:\A INFORMACION IMPORTATNTE\AgenciaSergio\Agencia\obj\Debug\Agencia.frmCatalogos.resources
+F:\A INFORMACION IMPORTATNTE\AgenciaSergio\Agencia\obj\Debug\Agencia.frmClientes.resources
+F:\A INFORMACION IMPORTATNTE\AgenciaSergio\Agencia\obj\Debug\Agencia.frmConfiguracion.resources
+F:\A INFORMACION IMPORTATNTE\AgenciaSergio\Agencia\obj\Debug\Agencia.frmEmpleado.resources
+F:\A INFORMACION IMPORTATNTE\AgenciaSergio\Agencia\obj\Debug\Agencia.frmEventos.resources
+F:\A INFORMACION IMPORTATNTE\AgenciaSergio\Agencia\obj\Debug\Agencia.frmLogin.resources
+F:\A INFORMACION IMPORTATNTE\AgenciaSergio\Agencia\obj\Debug\Agencia.frmLugares.resources
+F:\A INFORMACION IMPORTATNTE\AgenciaSergio\Agencia\obj\Debug\Agencia.frmPrincipal.resources
+F:\A INFORMACION IMPORTATNTE\AgenciaSergio\Agencia\obj\Debug\Agencia.frmSucursal.resources
+F:\A INFORMACION IMPORTATNTE\AgenciaSergio\Agencia\obj\Debug\Agencia.Properties.Resources.resources
+F:\A INFORMACION IMPORTATNTE\AgenciaSergio\Agencia\obj\Debug\Agencia.csproj.GenerateResource.Cache
+F:\A INFORMACION IMPORTATNTE\AgenciaSergio\Agencia\obj\Debug\Agencia.exe
+F:\A INFORMACION IMPORTATNTE\AgenciaSergio\Agencia\obj\Debug\Agencia.pdb
+F:\A INFORMACION IMPORTATNTE\Agencia_Viajes\Agencia\bin\Debug\Agencia.exe.config
+F:\A INFORMACION IMPORTATNTE\Agencia_Viajes\Agencia\obj\Debug\Agencia.exe
+F:\A INFORMACION IMPORTATNTE\Agencia_Viajes\Agencia\obj\Debug\Agencia.pdb
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia(actual)\Agencia\bin\Debug\Agencia.exe.config
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia(actual)\Agencia\obj\Debug\Agencia.exe
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia(actual)\Agencia\obj\Debug\Agencia.pdb
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia(actual)\Agencia\bin\Debug\Agencia.exe
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia(actual)\Agencia\bin\Debug\Agencia.pdb
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia(actual)\Agencia\obj\Debug\Agencia.csprojResolveAssemblyReference.cache
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia(actual)\Agencia\obj\Debug\Agencia.Form1.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia(actual)\Agencia\obj\Debug\Agencia.frmCatalogos.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia(actual)\Agencia\obj\Debug\Agencia.frmClientes.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia(actual)\Agencia\obj\Debug\Agencia.frmConfiguracion.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia(actual)\Agencia\obj\Debug\Agencia.frmEmpleado.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia(actual)\Agencia\obj\Debug\Agencia.frmEventos.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia(actual)\Agencia\obj\Debug\Agencia.frmLogin.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia(actual)\Agencia\obj\Debug\Agencia.frmLugares.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia(actual)\Agencia\obj\Debug\Agencia.frmPrincipal.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia(actual)\Agencia\obj\Debug\Agencia.frmSucursal.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia(actual)\Agencia\obj\Debug\Agencia.Properties.Resources.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia(actual)\Agencia\obj\Debug\Agencia.csproj.GenerateResource.Cache
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.frmClientes.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.frmConfiguracion.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.frmEventos.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.frmLogin.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.frmLugares.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.frmSucursal.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.frmHotel.resources
+C:\Users\Developer\Documents\Visual Studio 2012\Projects\Agencia\Agencia\obj\Debug\Agencia.frmMensajeOk.resources
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmClientes.resources
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmEventos.resources
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmHotel.resources
 C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmLugares.resources
-C:\Users\sergi\Downloads\Compressed\Agencia_Viajes-f964e37c171b213cde7aeb6832b86e6e7cd4e891\Agencia\bin\Debug\Agencia.exe.config
-C:\Users\sergi\Downloads\Compressed\Agencia_Viajes-f964e37c171b213cde7aeb6832b86e6e7cd4e891\Agencia\obj\Debug\Agencia.exe
-C:\Users\sergi\Downloads\Compressed\Agencia_Viajes-f964e37c171b213cde7aeb6832b86e6e7cd4e891\Agencia\obj\Debug\Agencia.pdb
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmMensajeOk.resources
+C:\www\Agencia_Viajes\Agencia\obj\Debug\Agencia.frmSucursal.resources

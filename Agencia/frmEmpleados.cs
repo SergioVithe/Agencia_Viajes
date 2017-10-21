@@ -16,8 +16,7 @@ namespace Agencia
         {
             InitializeComponent();
         }
-
-        ClsCatalogos empleado = new ClsCatalogos();
+        ClsEmpleados empleado = new ClsEmpleados();
         public void tablaReload()
         {
             dtaEmpleados.DataSource = empleado.consultasDataGridView("select * from tblEmpleados");

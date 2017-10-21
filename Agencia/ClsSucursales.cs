@@ -8,25 +8,25 @@ using System.Data;
 
 namespace Agencia
 {
-    class ClsCatalogos
+    class ClsSucursales
     {
 
-        public void ProcedimientosBasicos( string query)
+        public void ProcedimientosBasicos(string query)
         {
             string[] cadenas = { };
             ClsInicio inicio = new ClsInicio();
             cadenas = inicio.datosBaseDatos().Split('=', ';');
             MySqlConnection con = new MySqlConnection("Server=" + cadenas[1] + ";Database=" + cadenas[3] + "; User Id=" + cadenas[5] + ";Password=" + cadenas[7]);
-            
+
             using (con)
             {
                 con.Open();
                 MySqlCommand cmd = new MySqlCommand(query, con);
                 cmd.ExecuteNonQuery();
-                
+
             }
-           
-                
+
+
         }
 
         public DataTable consultasDataGridView(string query)
@@ -40,15 +40,15 @@ namespace Agencia
             using (con)
             {
                 con.Open();
-                
+
                 MySqlDataAdapter mdaDatos = new MySqlDataAdapter(query, con);
                 mdaDatos.Fill(dtdatos);
-                
-                
+
+
 
             }
             return dtdatos;
-        
+
         }
 
 

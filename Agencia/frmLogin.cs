@@ -17,32 +17,45 @@ namespace Agencia
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnConectar_Click(object sender, EventArgs e)
         {
-            ClsAcceso acceso = new ClsAcceso();
-            acceso.pass = txtPassword.Text;
-            acceso.usuario = txtUsuario.Text;
 
-            string mensaje = "";
-            switch(acceso.segurity()){
-                case "1":
-                    mensaje = "Bienvenido Administrador";
-                    System.Windows.Forms.MessageBox.Show(mensaje);
-                    frmPrincipal principal = new frmPrincipal();
-                    principal.Show();
-                    Hide();
+            if (txtUsuario.Text != "" && txtPassword.Text != "")
+            {
+                ClsAcceso acceso = new ClsAcceso();
+                acceso.pass = txtPassword.Text;
+                acceso.usuario = txtUsuario.Text;
 
-                    break;
-                case "":
-                    mensaje = "Usuario no encontrado ";
-                    System.Windows.Forms.MessageBox.Show(mensaje);
-                    break;
+                string mensaje = "";
+                switch (acceso.segurity())
+                {
+                    case "1":
+                        //    mensaje = "Bienvenido Administrador";
+                        //  System.Windows.Forms.MessageBox.Show(mensaje);
+                        //frmPrincipal principal = new frmPrincipal();
+                        Form1 a = new Form1();
+                        a.Show();
+                        //principal.Show();
+                        Hide();
 
-                default:
-                    
-                    break;
+                        break;
+                    case "":
+                        mensaje = "Usuario no encontrado";
+                        System.Windows.Forms.MessageBox.Show(mensaje);
+                        break;
+                    default:
+                        break;
+                }
             }
-            
+            else
+            {
+                string notificacion = "Ingrese el usuario y la contraseña";
+                System.Windows.Forms.MessageBox.Show(notificacion);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
 
         }
     }
